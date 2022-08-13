@@ -7,8 +7,8 @@ import decentragramJson from '../abis/Decentragram.json'
 
 const ipfsClient = require('ipfs-http-client');
 
-const projectId = '2DDxh3LUe1hg9Uaf7IjdVBwu1QQ';
-const projectSecret = '653db6383684e5d1c3c3c0ef822a60fd';
+const projectId = '';
+const projectSecret = '';
 
 const auth = 'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
 
